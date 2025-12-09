@@ -7,13 +7,13 @@ import 'package:flutter/foundation.dart'
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
 /// Example:
-/// dart
+/// ```dart
 /// import 'firebase_options.dart';
 /// // ...
 /// await Firebase.initializeApp(
 ///   options: DefaultFirebaseOptions.currentPlatform,
 /// );
-/// 
+/// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -50,20 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyD9octglmSGuKuE45DRrHpnvUT54makQ20',
-    appId: '1:744338036100:web:d2091e7df2455d3139b9d1',
-    messagingSenderId: '744338036100',
-    projectId: 'tugaspertemuan9-31ae1',
-    authDomain: 'tugaspertemuan9-31ae1.firebaseapp.com',
-    storageBucket: 'tugaspertemuan9-31ae1.firebasestorage.app',
-    measurementId: 'G-TX3L3LMYN5',
+    apiKey: 'AIzaSyCUcSQ5L-FBwwOjaCPtzikvcwuqA-60pbQ',
+    appId: '1:836245904016:web:6354cbfbb2837573bf5615',
+    messagingSenderId: '836245904016',
+    projectId: 'tugas9-14dd7',
+    authDomain: 'tugas9-14dd7.firebaseapp.com',
+    storageBucket: 'tugas9-14dd7.firebasestorage.app',
+    measurementId: 'G-NYS9QERFCE',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBG5m4jyL8yw1mxfZTdaNqi14VRwoVFiXE',
-    appId: '1:744338036100:android:8893b2bff0fd09c939b9d1',
-    messagingSenderId: '744338036100',
-    projectId: 'tugaspertemuan9-31ae1',
-    storageBucket: 'tugaspertemuan9-31ae1.firebasestorage.app',
+    apiKey: 'AIzaSyDQ6uKMt-wut5e1CKqauFiDG6eKim7Z49A',
+    appId: '1:836245904016:android:a1743d0b2bf9f7abbf5615',
+    messagingSenderId: '836245904016',
+    projectId: 'tugas9-14dd7',
+    storageBucket: 'tugas9-14dd7.firebasestorage.app',
   );
 }

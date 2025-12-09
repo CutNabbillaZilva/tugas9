@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "836245904016",
+    "project_id": "tugas9-14dd7",
+    "storage_bucket": "tugas9-14dd7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836245904016:android:a1743d0b2bf9f7abbf5615",
+        "android_client_info": {
+          "package_name": "com.example.pertemuan9"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ6uKMt-wut5e1CKqauFiDG6eKim7Z49A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
